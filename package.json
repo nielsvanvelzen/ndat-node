@@ -1,0 +1,25 @@
+{
+	"name": "ndat-node",
+	"preferGlobal": true,
+	"version": "0.0.1",
+	"author": "Niels van Velzen <info@nielsvanvelzen.me>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nielsvanvelzen/ndat-node"
+	},
+	"dependencies": {
+		"minimist": "^1.2.0",
+		"node-fastcgi": "latest"
+	},
+	"bin": {
+		"ndat-node": "./bin/ndat-node"
+	},
+	"main": "./src/ndat-node",
+	"files": [
+		"bin/",
+		"src/"
+	],
+	"engines": {
+		"node": ">= 8.1.2"
+	}
+}
